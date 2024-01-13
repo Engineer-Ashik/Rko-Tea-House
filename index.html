@@ -16,23 +16,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-
     <title>Rko-Tea-House</title>
+    <!--Tailwind Custom Color-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
     <style>
         /* plus jakarta font class */
-        .jakarta {
+        .font-jakarta {
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
 
         /* Manrope font class */
-        .manrope {
+        .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
 </head>
 
-<body>
+<body class="font-manrope">
     <h1>Its My own Tea House</h1>
 
 </body>
